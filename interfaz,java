@@ -1,0 +1,37 @@
+paquete  sergy ;
+
+ Aplicación de interfaces de clase  pública {
+    public  static  void  main ( String [] args ) {
+        Estudiante  estudiante = nuevo  Estudiante (
+                "Sergio" ,
+                "Rodriguez" ,
+                20 ,
+                "Tecnologico" ,
+                "Informática" ,
+                "6to"
+        );
+
+        empleado  empleado = nuevo  empleado (
+                "Javier" ,
+                "Aviles" ,
+                21 ,
+                 "Tecnologico" ,
+                 "Informática" ,
+                    "6to"
+        );
+
+        EstudianteTrabajador  estudianteTrabajador = new  EstudianteTrabajador (
+                "Jose" ,
+                "Vazquez" ,
+                23 ,
+                "Tecnologico" ,
+                "Informática" ,
+                "6to" ,
+
+        );
+
+        sistema _ fuera _ println ( estudiante . toString ());
+        sistema _ fuera _ println ( empleado . toString ());
+        sistema _ fuera _ println ( estudianteTrabajador . toString ());
+    }
+}
